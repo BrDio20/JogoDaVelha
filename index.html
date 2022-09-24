@@ -1,0 +1,37 @@
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  href="style.css" rel="stylesheet">
+    
+    <title> Jogo da Velha</title>
+</head>
+<body>
+
+    <table class="game">
+        <tr class="top">
+            <!-- <input type="text" class="jogada" maxlength="1" disabled> -->
+            <td class="top-left square"> <p type="text" id="jogada1" class="jogada" onclick="teste1()"></p>   </p>
+            </td>
+            <td class="top-middle square"> <p type="text" id="jogada2" class="jogada" onclick="teste2()"></p></td>
+            <td class="top-right square"> </td>   
+            
+        </tr>
+
+        <tr class="middle">
+            <td class="middle-left square"></td>
+            <td class="center square"></td>
+            <td class="middle-right square"></td>   
+        </tr>
+
+        <tr class="bottom">
+            <td class="bottom-left square"></td>
+            <td class="bottom-middle square"></td>
+            <td class="bottom-right square"></td>   
+        </tr>
+   </table>
+
+<script src="main.js" ></script>
+</body>
+</html>

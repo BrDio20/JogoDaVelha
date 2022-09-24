@@ -1,0 +1,123 @@
+body,html{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    background-image: linear-gradient(to right, rgb(171, 255, 254), rgb(132, 247, 132));
+}
+
+.game{
+    /* outline: 5px solid rgb(62, 62, 62); */
+    display: flex;
+    margin: auto;
+}
+
+.top{
+    width: 100px;
+    height: 100px;
+    /* background-color: rgba(115, 115, 115, 0.5); */
+}
+
+.middle{
+    width: 100px;
+    height: 100px;
+    /* background-color: rgba(115, 115, 115, 0.5); */
+
+}
+
+.bottom{
+    width: 100px;
+    height: 100px;
+    /* background-color: rgba(115, 115, 115, 0.5); */
+}
+
+.top-left{
+    cursor: pointer;
+    width: 100px;
+    border-bottom: 3px black solid;
+    border-right: 3px black solid;
+
+}
+
+.top-middle{
+    width: 100px;
+    border-bottom: 3px black solid;
+    border-left: 3px black solid;
+    border-right: 3px black solid;
+    cursor: pointer;
+
+
+
+}
+.top-right{
+    width: 100px;
+    border-left: 3px black solid;
+    border-bottom: 3px black solid;
+    cursor: pointer;
+
+
+}
+
+.middle-left{
+    border-bottom: 3px black solid;
+    border-top: 3px black solid;
+    border-right: 3px black solid;
+    cursor: pointer;
+
+}
+
+.center{
+    border: 3px black solid;
+    cursor: pointer;
+
+}
+
+.middle-right{
+    border-top: 3px black solid;
+    border-left: 3px black solid;
+    border-bottom: 3px black solid;
+    cursor: pointer;
+
+}
+
+.bottom-right{
+    border-top: 3px black solid;
+    border-left: 3px black solid;
+    cursor: pointer;
+
+}
+
+.bottom-middle{
+    border-top: 3px black solid;
+    border-left: 3px black solid;
+    border-right: 3px black solid;
+    cursor: pointer;
+
+
+}
+
+.bottom-left{
+    border-top: 3px black solid;
+    border-right: 3px black solid;
+    cursor: pointer;
+
+
+}
+
+.jogada{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    /* border:none; */
+    /* position: absolute; */
+    font-size: 100px;
+    background-color: rgba(255, 255, 255, 0);
+    
+    /* left: 185px; */
+}
+
+.jogada:hover{
+    /* border: 1px solid black; */
+    background-color: rgba(255, 255, 255, 0.444);
+
+}
